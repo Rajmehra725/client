@@ -100,7 +100,6 @@ const ExploreSPS: React.FC = () => {
       qualification: "M.Sc. in Computer Science",
       subject: "Computer Science and Art"
     },
-
   ];
   
   const findEvent = (date: Date) =>
@@ -172,7 +171,7 @@ const ExploreSPS: React.FC = () => {
       {/* Teachers Section */}
       <section className="bg-white p-8 rounded-lg shadow-lg">
         <h2 className="text-3xl font-bold text-gray-800 mb-4">Meet Our Teachers</h2>
-        <div className="grid grid-cols-2 gap-8">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
           {teachers.map((teacher) => (
             <div
               key={teacher.name}
