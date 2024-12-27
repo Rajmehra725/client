@@ -75,6 +75,12 @@ const Navbar: React.FC = () => {
                 Courses
               </a>
               <a
+                href="/gallery"
+                className="text-white hover:text-gray-200 px-4 py-2 rounded-md text-lg font-semibold transition duration-300 ease-in-out"
+              >
+                Gallery
+              </a>
+              <a
                 href="/teachers"
                 className="text-white hover:text-gray-200 px-4 py-2 rounded-md text-lg font-semibold transition duration-300 ease-in-out"
               >

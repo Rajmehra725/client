@@ -1,10 +1,31 @@
-// src/pages/Home.tsx
+// School Website - React, TypeScript, Tailwind CSS
+
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+
+import NewsTicker from './NewsTicker';
+
 const Home: React.FC = () => {
     return (
       <div className="font-sans bg-gray-100 text-gray-900">
-        {/* Hero Section */}
+        {/* News Ticker Section */}
+        <NewsTicker />
+
+        {/* Hero Section with Latest News */}
         <section className="h-screen bg-cover bg-center relative" style={{ backgroundImage: 'url(/school-background.jpg)' }}>
           <div className="absolute inset-0 bg-black opacity-50"></div>
+          
+          {/* Latest News Section */}
+          <div className="absolute top-12 left-1/2 transform -translate-x-1/2 bg-white p-6 rounded-lg shadow-lg w-3/4 md:w-1/2 lg:w-1/3">
+            <h3 className="text-2xl font-bold text-yellow-500">Latest News</h3>
+            <ul className="mt-4 text-gray-700 list-disc list-inside">
+              <li><strong>Congratulations</strong> to our toppers of 2024!</li>
+              <li>Admissions open for the 2024-25 academic year.</li>
+              <li>Upcoming Science Fair - 15th March 2024</li>
+              <li>Annual Sports Meet scheduled for April 2024</li>
+            </ul>
+          </div>
+          
           <div className="flex justify-center items-center h-full text-center text-white">
             <div className="space-y-6 animate__animated animate__fadeIn">
               <h1 className="text-5xl font-extrabold animate__animated animate__fadeInUp">Welcome to Sunflower Public School</h1>
@@ -54,41 +75,10 @@ const Home: React.FC = () => {
           </div>
         </section>
   
-        {/* Testimonial Carousel */}
-        <section className="py-16 bg-white text-center">
-          <div className="max-w-7xl mx-auto">
-            <h2 className="text-3xl font-bold text-gray-800">What Our Students Say</h2>
-            <div className="mt-8">
-              {/* You can use a carousel library like Swiper for a better effect */}
-              <div className="space-y-6">
-                <div className="bg-gray-100 p-6 rounded-lg shadow-md">
-                  <p className="text-lg text-gray-600">"Sunflower Public School provided me with the foundation to succeed in both academics and extracurricular activities. The teachers are amazing!"</p>
-                  <div className="mt-4 font-semibold text-gray-800">- Student A</div>
-                </div>
-                <div className="bg-gray-100 p-6 rounded-lg shadow-md">
-                  <p className="text-lg text-gray-600">"I love how Sunflower encourages creativity and critical thinking. The school environment is always supportive and inspiring."</p>
-                  <div className="mt-4 font-semibold text-gray-800">- Student B</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-  
-        {/* Footer Section */}
-        <footer className="bg-yellow-400 py-8">
-          <div className="max-w-7xl mx-auto text-center">
-            <div className="text-white text-xl mb-4">Contact Us</div>
-            <p className="text-white">Email: info@spspaylikhurd.com | Phone: (123) 456-7890</p>
-            <div className="mt-4">
-              <a href="#" className="text-white px-4">Facebook</a>
-              <a href="#" className="text-white px-4">Instagram</a>
-              <a href="#" className="text-white px-4">LinkedIn</a>
-            </div>
-          </div>
-        </footer>
+      
+       
       </div>
     );
   };
-  
-  export default Home;
-  
+
+export default Home;
