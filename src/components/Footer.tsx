@@ -18,16 +18,16 @@ const Footer: React.FC = () => {
           <div className="w-full md:w-1/3 text-center mb-6 md:mb-0">
             <ul className="flex justify-center space-x-8 text-sm">
               <li>
-                <a href="#" className="hover:text-yellow-500 transition">Home</a>
+                <a href="/" className="hover:text-yellow-500 transition">Home</a>
               </li>
               <li>
-                <a href="#" className="hover:text-yellow-500 transition">About</a>
+                <a href="/about" className="hover:text-yellow-500 transition">About</a>
               </li>
               <li>
-                <a href="#" className="hover:text-yellow-500 transition">Admissions</a>
+                <a href="courses" className="hover:text-yellow-500 transition">Courses</a>
               </li>
               <li>
-                <a href="#" className="hover:text-yellow-500 transition">Contact</a>
+                <a href="/contact" className="hover:text-yellow-500 transition">Contact</a>
               </li>
             </ul>
           </div>
@@ -41,7 +41,7 @@ const Footer: React.FC = () => {
               <a href="#" className="hover:text-yellow-500 transition">
                 <FaTwitter size={24} />
               </a>
-              <a href="#" className="hover:text-yellow-500 transition">
+              <a href="https://www.instagram.com/sunflower_public_school_804/" className="hover:text-yellow-500 transition">
                 <FaInstagram size={24} />
               </a>
               <a href="#" className="hover:text-yellow-500 transition">

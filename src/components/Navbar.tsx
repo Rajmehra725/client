@@ -92,6 +92,12 @@ const Navbar: React.FC = () => {
               >
                 Contact
               </a>
+              <a
+                href="/features"
+                className="text-white hover:text-gray-200 px-4 py-2 rounded-md text-lg font-semibold transition duration-300 ease-in-out"
+              >
+                Features
+              </a>
             </div>
           </div>
         </div>
@@ -125,6 +131,13 @@ const Navbar: React.FC = () => {
             Courses
           </a>
           <a
+            href="/gallery"
+            className="text-white block px-3 py-2 rounded-md text-lg font-medium"
+            onClick={() => setIsOpen(false)}
+          >
+            Gallery
+          </a>
+          <a
             href="/teachers"
             className="text-white block px-3 py-2 rounded-md text-lg font-medium"
             onClick={() => setIsOpen(false)}
@@ -137,6 +150,13 @@ const Navbar: React.FC = () => {
             onClick={() => setIsOpen(false)}
           >
             Contact
+          </a>
+          <a
+            href="/features"
+            className="text-white block px-3 py-2 rounded-md text-lg font-medium"
+            onClick={() => setIsOpen(false)}
+          >
+            Features
           </a>
         </div>
       </div>

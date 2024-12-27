@@ -6,12 +6,31 @@ const About: React.FC = () => {
     return (
       <div className="font-sans bg-gray-50 text-gray-900">
         {/* Hero Section */}
-        <section className="h-64 bg-cover bg-center relative" style={{ backgroundImage: 'url(/school-background.jpg)' }}>
-          <div className="absolute inset-0 bg-black opacity-50"></div>
-          <div className="flex justify-center items-center h-full text-center text-white">
-            <h1 className="text-4xl font-extrabold animate__animated animate__fadeIn">About Sunflower Public School</h1>
-          </div>
-        </section>
+        <section 
+  className="h-80 md:h-96 bg-cover bg-center relative flex items-center justify-center text-center text-white" 
+  style={{ backgroundImage: 'url(/school-background.jpg)' }}
+>
+  {/* Background Overlay */}
+  <div className="absolute inset-0 bg-gradient-to-r from-black via-transparent to-black opacity-70"></div>
+
+  {/* Content */}
+  <div className="relative z-10 space-y-4 px-6">
+    <h1 className="text-5xl md:text-6xl font-extrabold drop-shadow-lg animate__animated animate__fadeInDown">
+      About <span className="text-yellow-400">Sunflower Public School</span>
+    </h1>
+    <p className="text-lg md:text-xl max-w-3xl mx-auto font-light animate__animated animate__fadeInUp">
+      We are committed to nurturing young minds, fostering creativity, and preparing students to excel in a dynamic world.
+    </p>
+    <button className="mt-4 bg-yellow-500 text-white font-semibold px-6 py-3 rounded-full shadow-lg hover:bg-yellow-600 hover:shadow-xl transform transition duration-300 hover:scale-105">
+      Learn More
+    </button>
+  </div>
+
+  {/* Decorative Elements */}
+  <div className="absolute -top-10 left-1/4 w-20 h-20 bg-yellow-500 rounded-full opacity-30 animate-pulse"></div>
+  <div className="absolute -bottom-10 right-1/3 w-28 h-28 bg-yellow-400 rounded-full opacity-30 animate-bounce"></div>
+</section>
+
   
         {/* About the School Section */}
         <section className="py-16 bg-white">

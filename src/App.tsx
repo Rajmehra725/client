@@ -8,6 +8,7 @@ import Courses from './pages/Courses';
 import Contact from './pages/Contact';
 import Teachers from './pages/Teachers';
 import ImageGallery from './pages/GalleryImage';
+import ExploreSPS from './pages/ExploreSPS';
 
 const App: React.FC = () => {
   return (
@@ -20,6 +21,7 @@ const App: React.FC = () => {
         <Route path="/contact" element={<Contact />} />
         <Route path="/teachers" element={<Teachers />} />
         <Route path="/gallery" element={<ImageGallery />} />
+        <Route path="/features" element={<ExploreSPS />} />
       </Routes>
       <Footer />
     </Router>

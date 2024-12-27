@@ -7,12 +7,31 @@ const Teachers: React.FC = () => {
     return (
       <div className="font-sans bg-gray-50 text-gray-900">
         {/* Hero Section */}
-        <section className="h-64 bg-cover bg-center relative" style={{ backgroundImage: 'url(/teachers-background.jpg)' }}>
-          <div className="absolute inset-0 bg-black opacity-50"></div>
-          <div className="flex justify-center items-center h-full text-center text-white">
-            <h1 className="text-4xl font-extrabold animate__animated animate__fadeIn">Our Dedicated Teachers</h1>
-          </div>
-        </section>
+        <section 
+  className="h-80 md:h-96 bg-cover bg-center relative flex items-center justify-center text-center text-white" 
+  style={{ backgroundImage: 'url(/teachers-background.jpg)' }}
+>
+  {/* Background Overlay */}
+  <div className="absolute inset-0 bg-gradient-to-r from-gray-800 via-transparent to-gray-800 opacity-70"></div>
+
+  {/* Content */}
+  <div className="relative z-10 space-y-4 px-6">
+    <h1 className="text-5xl md:text-6xl font-extrabold drop-shadow-lg animate__animated animate__fadeInDown">
+      Meet <span className="text-yellow-400">Our Dedicated Teachers</span>
+    </h1>
+    <p className="text-lg md:text-xl max-w-3xl mx-auto font-light animate__animated animate__fadeInUp">
+      Empowering young minds through passion, dedication, and expertise.
+    </p>
+    <button className="mt-4 bg-yellow-500 text-white font-semibold px-6 py-3 rounded-full shadow-lg hover:bg-yellow-600 hover:shadow-xl transform transition duration-300 hover:scale-105">
+      Explore Team
+    </button>
+  </div>
+
+  {/* Decorative Elements */}
+  <div className="absolute -top-10 left-1/4 w-20 h-20 bg-yellow-500 rounded-full opacity-30 animate-pulse"></div>
+  <div className="absolute -bottom-10 right-1/3 w-28 h-28 bg-yellow-400 rounded-full opacity-30 animate-bounce"></div>
+</section>
+
   
         {/* Teachers List Section */}
         <section className="py-16 bg-white">
@@ -59,7 +78,7 @@ const Teachers: React.FC = () => {
               <h3 className="mt-6 text-xl font-semibold text-gray-800">Mr. Arvind Kumre </h3>
               <p className="mt-2 text-gray-600">Social Science Teacher</p>
               <p className="mt-4 text-gray-600">
-                Ms. Arvind is an Social Science Teacher who believes in the power of storytelling to inspire and develop communication skills in her students. She fosters creativity and confidence in writing and speaking.
+                Mr. Arvind is an Social Science Teacher who believes in the power of storytelling to inspire and develop communication skills in her students. She fosters creativity and confidence in writing and speaking.
               </p>
             </div>
   

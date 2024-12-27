@@ -27,11 +27,28 @@ const Home: React.FC = () => {
           </div>
           
           <div className="flex justify-center items-center h-full text-center text-white">
-            <div className="space-y-6 animate__animated animate__fadeIn">
-              <h1 className="text-5xl font-extrabold animate__animated animate__fadeInUp">Welcome to Sunflower Public School</h1>
-              <p className="text-xl animate__animated animate__fadeInUp">Empowering students with knowledge, creativity, and leadership.</p>
-              <button className="bg-yellow-500 text-white px-8 py-3 rounded-full mt-4 hover:bg-yellow-600 transform transition duration-500 hover:scale-105">Enroll Now</button>
-            </div>
+          <div className="relative bg-gradient-to-r from-yellow-400 via-yellow-500 to-yellow-600 min-h-screen flex justify-center items-center text-center text-white">
+  {/* Background Overlay */}
+  <div className="absolute inset-0 bg-black bg-opacity-50"></div>
+
+  {/* Content Section */}
+  <div className="relative z-10 space-y-6 animate__animated animate__fadeIn">
+    <h1 className="text-6xl md:text-7xl font-extrabold animate__animated animate__fadeInUp drop-shadow-lg">
+      Welcome to <span className="text-yellow-200">Sunflower Public School</span>
+    </h1>
+    <p className="text-lg md:text-2xl animate__animated animate__fadeInUp text-yellow-100 max-w-3xl mx-auto">
+      Empowering students with knowledge, creativity, and leadership. Join us in shaping a brighter future.
+    </p>
+    <button className="bg-white text-yellow-600 font-bold px-8 py-4 rounded-full shadow-lg hover:bg-yellow-500 hover:text-white transform transition duration-500 hover:scale-105">
+      Enroll Now
+    </button>
+  </div>
+
+  {/* Decorative Elements */}
+  <div className="absolute -top-10 -left-10 w-40 h-40 bg-yellow-300 rounded-full opacity-30 animate-pulse"></div>
+  <div className="absolute -bottom-10 -right-10 w-60 h-60 bg-yellow-500 rounded-full opacity-30 animate-bounce"></div>
+</div>
+
           </div>
         </section>
   
