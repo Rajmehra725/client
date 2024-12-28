@@ -25,27 +25,66 @@ const Home: React.FC = () => {
         </div>
 
         <div className="flex justify-center items-center h-full text-center text-white">
-          <div className="relative bg-gradient-to-r from-yellow-400 via-yellow-500 to-yellow-600 min-h-screen flex justify-center items-center text-center text-white">
-            {/* Background Overlay */}
-            <div className="absolute inset-0 bg-black bg-opacity-50"></div>
+          <div className="relative bg-gradient-to-b from-orange-100 to-orange-300 min-h-screen flex flex-col">
+            {/* Hero Section */}
+            <div className="relative flex-grow flex flex-col justify-center items-center text-center mt-10 p-6">
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-center w-full max-w-6xl">
+                {/* Saraswati Mata Photo */}
+                <div className="flex justify-center">
+                  <img
+                    src="https://th.bing.com/th/id/OIP.hko6ZCeNvpkynvDGoto8xwHaGJ?rs=1&pid=ImgDetMain"
+                    alt="Saraswati Mata"
+                    className="w-60 h-60 md:w-80 md:h-80 rounded-lg shadow-xl border-4 border-orange-400"
+                  />
+                </div>
 
-            {/* Content Section */}
-            <div className="relative z-10 space-y-6 animate__animated animate__fadeIn">
-              <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold animate__animated animate__fadeInUp drop-shadow-lg">
-                Welcome to <span className="text-yellow-200">Sunflower Public School</span>
-              </h1>
-              <p className="text-base sm:text-lg md:text-2xl animate__animated animate__fadeInUp text-yellow-100 max-w-3xl mx-auto">
-                Empowering students with knowledge, creativity, and leadership. Join us in shaping a brighter future.
-              </p>
-              <button className="bg-white text-yellow-600 font-bold px-8 py-4 rounded-full shadow-lg hover:bg-yellow-500 hover:text-white transform transition duration-500 hover:scale-105">
-                Enroll Now
-              </button>
+                {/* School Info and Shloka */}
+                <div className="col-span-2 flex flex-col items-center md:items-start space-y-6">
+                  <h1 className="text-5xl font-bold text-orange-700">
+                    Welcome to <span className="text-orange-600">Sunflower Public School Payli Khurd (Chhapara , Seoni)</span>
+                  </h1>
+                  <p className="text-lg text-orange-800 italic">
+                    "या कुन्देन्दु तुषार हार धवला या शुभ्र वस्त्रावृता।<br />
+                    या वीणा वरदण्ड मण्डित करा या श्वेत पद्मासना॥"
+                  </p>
+                  <p className="text-base text-orange-900">
+                    Empowering students with knowledge, creativity, and leadership. Join us in shaping a brighter future.
+                  </p>
+                  <button className="bg-orange-500 text-white font-bold px-6 py-3 rounded-md shadow-lg hover:bg-orange-600 transition duration-300">
+                    Enroll Now
+                  </button>
+                </div>
+              </div>
             </div>
 
-            {/* Decorative Elements */}
-            <div className="absolute -top-10 -left-10 w-40 h-40 bg-yellow-300 rounded-full opacity-30 animate-pulse"></div>
-            <div className="absolute -bottom-10 -right-10 w-60 h-60 bg-yellow-500 rounded-full opacity-30 animate-bounce"></div>
+            {/* Highlights Section */}
+            <div className="bg-orange-50 py-16">
+              <div className="container mx-auto max-w-6xl px-6 text-center space-y-10">
+                <h2 className="text-4xl font-bold text-orange-700">Why Choose Us</h2>
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                  <div className="p-6 shadow-md rounded-lg bg-orange-100">
+                    <h3 className="text-xl font-semibold text-orange-600">Modern Infrastructure</h3>
+                    <p className="text-orange-700 mt-3">
+                      Fully equipped smart classrooms, science labs, and a state-of-the-art computer lab.
+                    </p>
+                  </div>
+                  <div className="p-6 shadow-md rounded-lg bg-orange-100">
+                    <h3 className="text-xl font-semibold text-orange-600">Holistic Learning</h3>
+                    <p className="text-orange-700 mt-3">
+                      Balanced focus on academics, extracurriculars, and moral values.
+                    </p>
+                  </div>
+                  <div className="p-6 shadow-md rounded-lg bg-orange-100">
+                    <h3 className="text-xl font-semibold text-orange-600">Experienced Faculty</h3>
+                    <p className="text-orange-700 mt-3">
+                      Dedicated teachers fostering curiosity and excellence in every student.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
+
         </div>
       </section>
 
