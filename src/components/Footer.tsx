@@ -8,7 +8,9 @@ const Footer: React.FC = () => {
         <div className="flex flex-wrap items-center justify-between">
           {/* School Info */}
           <div className="w-full md:w-1/3 text-center md:text-left mb-6 md:mb-0">
-            <h2 className="text-3xl font-bold text-white">Sunflower Public School Payli Khurd(Chhapara,Seoni)</h2>
+            <h2 className="text-3xl font-bold text-white">
+              Sunflower Public School Payli Khurd(Chhapara,Seoni)
+            </h2>
             <p className="mt-2 text-sm text-gray-400">
               Excellence in education for a brighter future.
             </p>
@@ -55,6 +57,17 @@ const Footer: React.FC = () => {
         <div className="border-t border-gray-700 mt-10 pt-6 text-center text-sm">
           <p className="text-gray-500">
             &copy; {new Date().getFullYear()} Sunflower Public School Payli Khurd(Chhapara,Seoni). All Rights Reserved.
+          </p>
+          <p className="mt-2 text-yellow-400 font-medium">
+            Designed by 
+            <a 
+              href="https://www.instagram.com/itzzzme_raazzz/" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="hover:text-yellow-500 transition ml-1"
+            >
+              Raj Mehra
+            </a>
           </p>
         </div>
       </div>
