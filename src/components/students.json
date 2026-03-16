@@ -1,0 +1,275 @@
+{
+  "students": [
+
+    {
+      "childId": "308249350",
+      "name": "Nandni Chandrwanshi",
+      "class": "6",
+      "roll": 9,
+      "hindi": 96,
+      "english": 95,
+      "sanskrit": 94,
+      "maths": 98,
+      "science": 97,
+      "socialScience": 95
+    },
+    {
+      "childId": "311027858",
+      "name": "Aavni Chandrawanshi",
+      "class": "6",
+      "roll": 1,
+      "hindi": 92,
+      "english": 91,
+      "sanskrit": 90,
+      "maths": 94,
+      "science": 93,
+      "socialScience": 92
+    },
+    {
+      "childId": "308265905",
+      "name": "Manish Chandravanshi",
+      "class": "6",
+      "roll": 10,
+      "hindi": 90,
+      "english": 89,
+      "sanskrit": 88,
+      "maths": 92,
+      "science": 91,
+      "socialScience": 90
+    },
+    {
+      "childId": "310834929",
+      "name": "Gauri Chandravanshi",
+      "class": "6",
+      "roll": 7,
+      "hindi": 88,
+      "english": 87,
+      "sanskrit": 86,
+      "maths": 90,
+      "science": 89,
+      "socialScience": 88
+    },
+
+    {
+      "childId": "305943011",
+      "name": "Ayaz Khan",
+      "class": "6",
+      "roll": 3,
+      "hindi": 85,
+      "english": 84,
+      "sanskrit": 83,
+      "maths": 86,
+      "science": 85,
+      "socialScience": 84
+    },
+    {
+      "childId": "306650551",
+      "name": "Shivam saryam",
+      "class": "6",
+      "roll": 4,
+      "hindi": 87,
+      "english": 86,
+      "sanskrit": 85,
+      "maths": 88,
+      "science": 87,
+      "socialScience": 86
+    },
+    {
+      "childId": "200455744",
+      "name": "Chandrabhan Singh Chandarwanshi",
+      "class": "6",
+      "roll": 5,
+      "hindi": 84,
+      "english": 83,
+      "sanskrit": 82,
+      "maths": 85,
+      "science": 84,
+      "socialScience": 83
+    },
+    {
+      "childId": "308906044",
+      "name": "Dipanshi Daheriya",
+      "class": "6",
+      "roll": 6,
+      "hindi": 89,
+      "english": 88,
+      "sanskrit": 87,
+      "maths": 91,
+      "science": 90,
+      "socialScience": 89
+    },
+    {
+      "childId": "305700010",
+      "name": "Mahin Bee",
+      "class": "6",
+      "roll": 8,
+      "hindi": 83,
+      "english": 82,
+      "sanskrit": 81,
+      "maths": 84,
+      "science": 83,
+      "socialScience": 82
+    },
+    {
+      "childId": "309787276",
+      "name": "Aadarsh Karveti",
+      "class": "6",
+      "roll": 2,
+      "hindi": 82,
+      "english": 81,
+      "sanskrit": 80,
+      "maths": 83,
+      "science": 82,
+      "socialScience": 81
+    },
+
+
+
+    {
+      "childId": "302112442",
+      "name": "Poonam Yadav",
+      "class": "7",
+      "roll": 10,
+      "hindi": 96,
+      "english": 95,
+      "sanskrit": 94,
+      "maths": 97,
+      "science": 96,
+      "socialScience": 95
+    },
+    {
+      "childId": "309484266",
+      "name": "Ram Yadav",
+      "class": "7",
+      "roll": 11,
+      "hindi": 92,
+      "english": 91,
+      "sanskrit": 90,
+      "maths": 93,
+      "science": 92,
+      "socialScience": 91
+    },
+    {
+      "childId": "305915797",
+      "name": "Keshav Chandravanshi",
+      "class": "7",
+      "roll": 6,
+      "hindi": 90,
+      "english": 89,
+      "sanskrit": 88,
+      "maths": 92,
+      "science": 91,
+      "socialScience": 90
+    },
+    {
+      "childId": "305559789",
+      "name": "Nayan Yadav",
+      "class": "7",
+      "roll": 8,
+      "hindi": 88,
+      "english": 87,
+      "sanskrit": 86,
+      "maths": 89,
+      "science": 88,
+      "socialScience": 87
+    },
+    {
+      "childId": "305700012",
+      "name": "Kasim Mohammad",
+      "class": "7",
+      "roll": 5,
+      "hindi": 86,
+      "english": 85,
+      "sanskrit": 84,
+      "maths": 87,
+      "science": 86,
+      "socialScience": 85
+    },
+
+    {
+      "childId": "308677278",
+      "name": "Abhishek Chandrawanshi",
+      "class": "7",
+      "roll": 1,
+      "hindi": 84,
+      "english": 83,
+      "sanskrit": 82,
+      "maths": 85,
+      "science": 84,
+      "socialScience": 83
+    },
+    {
+      "childId": "195811317",
+      "name": "Anuj Chandrawanshi",
+      "class": "7",
+      "roll": 2,
+      "hindi": 83,
+      "english": 82,
+      "sanskrit": 81,
+      "maths": 84,
+      "science": 83,
+      "socialScience": 82
+    },
+    {
+      "childId": "308951608",
+      "name": "Dev Uikey",
+      "class": "7",
+      "roll": 3,
+      "hindi": 85,
+      "english": 84,
+      "sanskrit": 83,
+      "maths": 86,
+      "science": 85,
+      "socialScience": 84
+    },
+    {
+      "childId": "198081543",
+      "name": "Hari Om Chandrawanshi",
+      "class": "7",
+      "roll": 4,
+      "hindi": 82,
+      "english": 81,
+      "sanskrit": 80,
+      "maths": 83,
+      "science": 82,
+      "socialScience": 81
+    },
+    {
+      "childId": "197948799",
+      "name": "Mo Tahseem",
+      "class": "7",
+      "roll": 7,
+      "hindi": 84,
+      "english": 83,
+      "sanskrit": 82,
+      "maths": 85,
+      "science": 84,
+      "socialScience": 83
+    },
+    {
+      "childId": "305233093",
+      "name": "Prachi Markam",
+      "class": "7",
+      "roll": 9,
+      "hindi": 87,
+      "english": 86,
+      "sanskrit": 85,
+      "maths": 88,
+      "science": 87,
+      "socialScience": 86
+    },
+    {
+      "childId": "301173481",
+      "name": "Sekh Ajhar",
+      "class": "7",
+      "roll": 12,
+      "hindi": 83,
+      "english": 82,
+      "sanskrit": 81,
+      "maths": 84,
+      "science": 83,
+      "socialScience": 82
+    }
+
+  ]
+}
