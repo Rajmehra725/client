@@ -1,7 +1,6 @@
 import HeroSection from "../components/HeroSection";
 import ResultLookup from "../components/ResultLookup";
 import SaraswatiSection from "../components/SaraswatiSection";
-import Facilities from "../components/Facilities";
 import NewsTicker from "../components/NewsTicker";
 
 const HomePage = () => {
@@ -17,8 +16,6 @@ const HomePage = () => {
       <ResultLookup />
 
       <SaraswatiSection />
-
-      <Facilities />
 
     </div>
   );
